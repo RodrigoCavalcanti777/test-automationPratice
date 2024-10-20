@@ -32,6 +32,11 @@ class LoginPage {
             .should('exist')
                 .click();
     }
+
+    validateLoginPage(){
+        cy.get(validatePage)
+            .should('exist');
+    }
 }
 
 module.exports = new LoginPage();
