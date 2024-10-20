@@ -1,0 +1,17 @@
+{
+  "name": "automation-pratice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:web": "npx cypress open",
+    "cypress:terminal": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.3",
+    "cypress": "^13.14.2"
+  }
+}
